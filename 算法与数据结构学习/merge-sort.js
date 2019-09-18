@@ -5,21 +5,21 @@
  * @param {number} low 
  * @param {number} high 
  */
-function merge_sort(nums, low, high) {
+function mergeSort(nums, low, high) {
   // 递归终止条件
   if (nums.length == 0 || low == high) {
     return;
   }
   let mid = Math.floor((low+high)/2);
   // 左半边递归
-  merge_sort(nums, low, mid);
+  mergeSort(nums, low, mid);
   // 右半边递归
-  merge_sort(nums, mid+1, high);
+  mergeSort(nums, mid+1, high);
   // 合并
-  merge_num(nums,low,mid,high);
+  mergeNum(nums,low,mid,high);
 }
 
-function merge_num(nums, low, mid, high) {
+function mergeNum(nums, low, mid, high) {
   let arr = [];
   let L = low;
   let R = mid+1;
@@ -46,6 +46,6 @@ function merge_num(nums, low, mid, high) {
 // 定义一个数组
 var nums = [4,2,8,1,6,5,7,3]
 // 调用归并排序函数
-merge_sort(nums,0,nums.length-1)
+mergeSort(nums,0,nums.length-1)
 // 打印排序的数组
 console.log(nums);  // Array(8) [1, 2, 3, 4, 5, 6, 7, 8]
