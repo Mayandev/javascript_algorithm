@@ -73,18 +73,6 @@ export default class LinkedList {
     
   }
 
-  /**
-   * 删除尾部节点
-   * @returns {LinkedListNode}
-   */
-  deleteTail() {
-    // case1: 如果链表为空，直接返回
-    if (!this.head) {
-      
-    }
-    // case2: 如果链表长度唯一，让head和tail指针指向null
-    // case3: 遍历链表，找到tail前一个节点
-  }
 
   /**
    * 删除头部节点
@@ -111,8 +99,94 @@ export default class LinkedList {
   }
 
 
+  /**
+   * 删除尾部节点
+   * @returns {LinkedListNode}
+   */
+  deleteTail() {
+    const deleteTail = this.tail;
+    // case1: 如果链表为空，直接返回
+    if (!this.head) {
+      return null;
+    }
+    // case2: 如果链表长度为1，让head和tail指针指向null，并返回该节点
+    if (!this.head.next) {
+      this.head = null;
+      this.tail = null;
+      return deleteTail;
+    }
+    // case3: 遍历链表，找到tail前一个节点
+    let currentNode = this.head;
+    while (currentNode.next.next) {
+      currentNode = currentNode.next;
+    }
 
+    // current定位到tail的前一个节点
+    currentNode.next = null;
+    this.tail = currentNode;
 
+    return deleteTail;
+    
+  }
 
+  /**
+   * 旋转链表
+   * @returns {LinkedList}
+   */
+  reverse() {
+    // 记录头节点
+    let curNode = this.head;
+    let prevNode = null;
+    let nextNode = null;
+
+    // 遍历链表
+    while (curNode) {
+      // 存储下一个节点
+      nextNode = curNode.next;
+      // 将当前节点指向前一个节点
+      curNode.next = prevNode;
+
+      // 指针后移
+      prevNode = curNode;
+      curNode = nextNode
+    }
+
+    // 重置头指针和尾指针
+    this.tail = this.head;
+    this.head = prevNode;
+
+    // 返回链表
+    return this;
+  }
+
+  /**
+   * 将数组转换为链表
+   * @param {*[]} values 
+   * @returns {LinkedList}
+   */
+  fromArray(values) {
+    // 遍历数组中的值，将值作为节点插入到链表中
+    values.forEach(values => this.append(value));
+    return this;
+  }
+
+  /**
+   * 将链表转换为节点数组返回
+   * @returns {LinkedListNode[]}
+   */
+  toArray() {
+    const nodes = [];
+
+    let currentNode = this.head;
+
+    while (currentNode) {
+      // 将当前遍历到底节点插入到数组中
+      nodes.push(currentNode);
+      currentNode = currentNode.next;
+    }
+
+    // 返回节点数组
+    return nodes;
+  }
 
 }
