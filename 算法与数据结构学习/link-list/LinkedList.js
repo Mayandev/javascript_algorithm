@@ -1,6 +1,20 @@
-import LinkedListNode from './LinkedListNode';
+// 使用es6语法
+// 定义链表节点
+class LinkedListNode {
+  // 构造函数
+  constructor(value, next = null) {
+    this.value = value;   // 节点值
+    this.next = next;     // 下个节点的指针
+  }
 
-export default class LinkedList {
+  // 重写toString方法
+  toString(callback) {
+    return callback ? callback(this.value) : `${this.value}`;
+  }
+}
+
+// 定义链表结构
+class LinkedList {
 
   constructor() {
     /**
@@ -68,10 +82,45 @@ export default class LinkedList {
       return null;
     }
 
-    // 
+    let deleteNode = null;
+
+    // 如果删除的是头节点
+    while (this.head && this.head.value === value) {
+      deleteNode = this.head;
+      this.head = this.head.next;
+    }
+
+    // 定义当前的节点为头节点，并继续遍历查找值相同的节点
+    let currentNode = this.head;
+
+    while (!currentNode) {
+      if (currentNode.next.value === value) {
+        deleteNode = currentNode.next;
+        currentNode.next = currentNode.next.next;
+      } else {
+        currentNode = currentNode.next;
+      }
+    }
+
+    if (!currentNode) {
+      while (condition) {
+        
+      }
+    }
+
+
 
     
   }
+
+  /**
+   * 
+   * @param {*} value 
+   */
+  find(value) {
+
+  }
+
 
 
   /**
@@ -166,7 +215,7 @@ export default class LinkedList {
    */
   fromArray(values) {
     // 遍历数组中的值，将值作为节点插入到链表中
-    values.forEach(values => this.append(value));
+    values.forEach(value => this.append(value));
     return this;
   }
 
@@ -189,4 +238,37 @@ export default class LinkedList {
     return nodes;
   }
 
+  toString(callback) {
+    return this.toArray().map(node => node.toString(callback)).toString();
+  }
 }
+
+
+// 测试
+const nodeArr = [3,2,1,5,6];
+const list = new LinkedList();
+list.fromArray(nodeArr);
+// 前插一个节点
+list.prepend(7);
+
+// 尾部插入节点
+list.append(9)
+
+// 删除节点
+// list.delete
+
+// 查找一个节点
+
+
+// 删除尾部节点
+list.deleteTail();
+
+// 删除头部节点
+list.deleteHead();
+
+// 逆转链表
+list.reverse();
+
+
+
+console.log(list.toString())
