@@ -11,7 +11,7 @@
 
 ## 链表的定义
 
-下面使用JavaScript代码定义链表，使用 es6 语法
+下面使用JavaScript代码定义链表，使用 es6 语法。
 
 ### 节点
 
@@ -285,8 +285,21 @@ deleteHead() {
   }
 ```
 
+## 复杂度
+
+### 时间复杂度
+
+
+| 访问    | 查找    | 插入 | 删除  |
+| :-------: | :-------: | :-------: | :-------: |
+| O(n)      | O(n)      | O(1)      | O(n)      |
+
+### 空间复杂度
+
+O(n)
+
 ## 总结
 
-以上就是链表定义以及常用操作，
+以上就是单向链表定义以及常用操作，但其实链表有多种不同的类型，例如单向链表，循环链表等，大家可自行学习。
 
 完整代码：[linked-list](https://github.com/Mayandev/javascript_algorithm/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/linked-list/LinkedList.js)
