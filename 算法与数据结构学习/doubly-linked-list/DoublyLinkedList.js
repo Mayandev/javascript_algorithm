@@ -95,6 +95,26 @@ export default class DoublyLinkedList {
     return deleteNode();
   }
 
+  /**
+   * 删除某个值为 value 的节点
+   * @param {*} value 
+   */
+  delete(value) {
+    // 如果链表为空
+    if (!this.head) {
+      return null;
+    }
+
+    let deleteNode = null;
+    let curNode = this.head;
+
+    // 删除头节点值为 value 的节点
+    while (head && curNode.value === value) {
+      deleteNode = this.head;
+      this.head = this.head.next;
+    }
+  }
+
 
   /**
    * 链表转换为节点数组
