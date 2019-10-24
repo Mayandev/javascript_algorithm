@@ -246,9 +246,6 @@ export default class DoublyLinkedList {
 
 ## 复杂度
 
- 
-## 复杂度
-
 ## 时间复杂度
 
 | 访问    | 查找    | 插入 | 删除  |
@@ -258,8 +255,6 @@ export default class DoublyLinkedList {
 ### 空间复杂度
 
 O(n)
-
-## 总结
 
 ## 总结
 
