@@ -77,7 +77,7 @@ export default class DoublyLinkedList {
   }
 
   /**
-   * 删除头节点
+   * 删除尾部节点
    * @return {DoublyLinkedListNode}
    */
   deleteTail() {
@@ -92,7 +92,7 @@ export default class DoublyLinkedList {
       this.tail = this.tail.previous;
       this.tail.next = null
     }
-    return deleteNode();
+    return deleteNode;
   }
 
   /**
@@ -106,13 +106,41 @@ export default class DoublyLinkedList {
     }
 
     let deleteNode = null;
-    let curNode = this.head;
 
     // 删除头节点值为 value 的节点
-    while (head && curNode.value === value) {
+    while (this.head && this.head.value === value) {
       deleteNode = this.head;
       this.head = this.head.next;
     }
+
+    this.head.previous = null;
+    let curNode = this.head;
+
+    // 如果头节点值不等于value
+    if (curNode) {
+      while (curNode.next) {
+        if (curNode.next.value === value) {
+
+          deleteNode = curNode.next;
+          // 判断是否删除的是尾部节点
+          if (deleteNode === this.tail) {
+            this.tail = curNode;
+            curNode.next = null;
+          } else {
+            curNode.next.next.previous = curNode;
+            curNode.next = curNode.next.next;
+          }
+
+        } else {
+          curNode = curNode.next;
+        }
+      }  
+    }
+
+    this.tail = curNode;
+
+    return deleteNode;
+
   }
 
 
