@@ -1,4 +1,4 @@
-#### No.26、从排序数组中删除重复项
+#### No.26 从排序数组中删除重复项
 
 给定一个排序的数组，原地删除重复项，返回移除后新数组的新长度。
 
@@ -42,3 +42,5 @@ var removeDuplicates = function(nums) {
   return i+1;
 };
 ```
+
+[完整代码链接](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/code/No26_remove-duplicates.js)
