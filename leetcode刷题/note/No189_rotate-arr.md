@@ -1,6 +1,10 @@
-### No.189 旋转数组
+# No.189 旋转数组
+
+难度：`easy`
 
 给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。
+
+## 示例
 
 **示例 1:**
 
@@ -12,6 +16,8 @@
 向右旋转 2 步: [6,7,1,2,3,4,5]
 向右旋转 3 步: [5,6,7,1,2,3,4]
 ```
+
+## 解题思路
 
 **解题思路1：暴力法**
 
@@ -93,6 +99,3 @@ var reverseArray = function(nums, start, end) {
   return nums;
 }
 ```
-
-
-[完整代码链接](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/code/No189_rotate-arr.js)
