@@ -1,6 +1,6 @@
 import LinkedList from '../linked-list/LinkedList';
 
-export defaut class Queue {
+export default class Queue {
   constructor() {
     this.linkedList = new LinkedList();
   }
