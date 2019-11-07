@@ -2,6 +2,9 @@
 
 队列是计算机常用的一种数据结构，遵循先进先出(FIFO，First-In-First-Out) 的原则，在操作系统中有很多的引用，例如进程管理、打印池任务等等。
 
+![](https://raw.githubusercontent.com/Mayandev/mayandev_blog_image/master/blog/queue-1.png)
+
+
 在 JavaScript 语言中其实自带了队列和栈的相关操作：shift()、unshift()、push()、pop()
 
 这里仍然使用链表来存储数据，模拟队列的相关操作。
