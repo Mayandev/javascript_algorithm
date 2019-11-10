@@ -1,6 +1,6 @@
 # LootCode 刷题
 
-
+- [No.1 两数之和](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No1_two-sum.md)
 - [No.19 删除链表倒数第 n 个节点](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No19_remove-nth-from-end.md)
 - [No.21 合并两个有序链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No21_merge-two-lists.md)
 - [No.26  从排序数组中删除重复项](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No26_remove-duplicates.md)
@@ -21,7 +21,7 @@
 #### 数组初级
 
 
-
+- [No.1 两数之和](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No1_two-sum.md)
 - [No.26 从排序数组中删除重复项](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No26_remove-duplicates.md)
 - [No.66 加一](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No66_plus-one.md)
 - [No.136 只出现一次的数字](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No136_single-number.md)
