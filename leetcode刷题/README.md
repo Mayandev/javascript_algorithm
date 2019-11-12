@@ -13,6 +13,7 @@
 - [No.234 回文链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No234_is-palindrome.md)
 - [No.237 删除链表节点](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No237_delete-node.md)
 - [No.283 移动零](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No283_move-zeroes.md)
+- [No.350 两个数组的交集 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No350_intersect.md)
 
 
 ## 分类
@@ -29,6 +30,7 @@
 - [No.136 只出现一次的数字](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No136_single-number.md)
 - [No.189 旋转数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No189_rotate-arr.md)
 - [No.283 移动零](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No283_move-zeroes.md)
+- [No.350 两个数组的交集 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No350_intersect.md)
 
 ### 链表
 
