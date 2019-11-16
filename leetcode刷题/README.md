@@ -14,6 +14,7 @@
 - [No.206 反转链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No206_reverse-list.md)
 - [No.234 回文链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No234_is-palindrome.md)
 - [No.237 删除链表节点](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No237_delete-node.md)
+- [No.242 有效的字母异位词](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No242_is-anagram.md)
 - [No.283 移动零](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No283_move-zeroes.md)
 - [No.350 两个数组的交集 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No350_intersect.md)
 - [No.387 字符串中的第一个唯一字符](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No387_first-uniq-char.md)
@@ -42,6 +43,7 @@
 
 #### 字符串初级
 
+- [No.242 有效的字母异位词](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No242_is-anagram.md)
 - [No.387 字符串中的第一个唯一字符](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No387_first-uniq-char.md)
 
 ### 链表
