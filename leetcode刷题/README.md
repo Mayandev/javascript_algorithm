@@ -46,6 +46,7 @@
 #### 字符串初级
 
 - [No.7 整数反转](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No7_reverse.md)
+- [No.28 实现 strStr()](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No28_str-str.md)
 - [No.125 验证回文串](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No125_is-palindrome.md)
 - [No.242 有效的字母异位词](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No242_is-anagram.md)
 - [No.387 字符串中的第一个唯一字符](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No387_first-uniq-char.md)
