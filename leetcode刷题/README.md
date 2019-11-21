@@ -48,6 +48,8 @@
 #### 字符串初级
 
 - [No.7 整数反转](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No7_reverse.md)
+- [No.8 字符串转换整数 (atoi)](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No8_my-atoi.md)
+- [No.14 最长公共前缀](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No14_longest-common-prefix.md)
 - [No.28 实现 strStr()](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No28_str-str.md)
 - [No.125 验证回文串](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No125_is-palindrome.md)
 - [No.242 有效的字母异位词](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No242_is-anagram.md)
