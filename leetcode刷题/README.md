@@ -2,6 +2,8 @@
 
 - [No.1 两数之和](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No1_two-sum.md)
 - [No.7 整数反转](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No7_reverse.md)
+- [No.8 字符串转换整数 (atoi)](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No8_my-atoi.md)
+- [No.14 最长公共前缀](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No14_longest-common-prefix.md)
 - [No.19 删除链表倒数第 n 个节点](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No19_remove-nth-from-end.md)
 - [No.21 合并两个有序链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No21_merge-two-lists.md)
 - [No.26 从排序数组中删除重复项](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No26_remove-duplicates.md)
@@ -20,7 +22,7 @@
 - [No.283 移动零](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No283_move-zeroes.md)
 - [No.350 两个数组的交集 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No350_intersect.md)
 - [No.387 字符串中的第一个唯一字符](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No387_first-uniq-char.md)
-26
+
 
 ## 分类
 
