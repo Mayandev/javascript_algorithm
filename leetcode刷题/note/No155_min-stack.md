@@ -31,7 +31,6 @@ js直接使用数组实现栈，最小值通过遍历查找，代码如下：
  */
 var MinStack = function() {
     this.stack = [];
-    this.min = 0;
 };
 
 /** 
@@ -39,7 +38,6 @@ var MinStack = function() {
  * @return {void}
  */
 MinStack.prototype.push = function(x) {
-    if (this.stack[this.stack.length - 1] )
     this.stack.push(x);
 };
 
