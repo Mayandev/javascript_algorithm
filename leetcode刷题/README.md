@@ -13,6 +13,7 @@
 - [No.48 旋转图像](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No48_rotate.md)
 - [No.66 加一](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No66_plus-one.md)
 - [No.70 爬楼梯](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No70_climb-stairs.md)
+- [No.88 合并两个有序数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No88_merge.md)
 - [No.98 验证二叉搜索树](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No98_is-valid-BST.md)
 - [No.104 二叉树的最大深度](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No104_max-depth.md)
 - [No.122 买卖股票的最佳时机 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No122_max-profit.md)
@@ -31,7 +32,7 @@
 - [No.326 3的幂](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No326_is-power-of-three.md)
 - [No.350 两个数组的交集 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No350_intersect.md)
 - [No.387 字符串中的第一个唯一字符](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No387_first-uniq-char.md)
-
+- [No.412 Fizz Buzz](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No412_fizz-buzz.md)
 
 ## 分类
 
