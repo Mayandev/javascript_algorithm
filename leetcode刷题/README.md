@@ -16,6 +16,7 @@
 - [No.88 合并两个有序数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No88_merge.md)
 - [No.98 验证二叉搜索树](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No98_is-valid-BST.md)
 - [No.104 二叉树的最大深度](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No104_max-depth.md)
+- [No.121 买卖股票的最佳时机](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No121_max-profit.md)
 - [No.122 买卖股票的最佳时机 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No122_max-profit.md)
 - [No.125 验证回文串](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No125_is-palindrome.md)
 - [No.136 只出现一次的数字](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No136_single-number.md)
