@@ -25,6 +25,7 @@
 - [No.160 相交链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No160_get-intersection-node.md)
 - [No.169 多数元素](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No169_majority-element.md)
 - [No.189 旋转数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No189_rotate-arr.md)
+- [No.204 计数质数](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No204_count-primes.md)
 - [No.206 反转链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No206_reverse-list.md)
 - [No.234 回文链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No234_is-palindrome.md)
 - [No.237 删除链表节点](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No237_delete-node.md)
@@ -36,6 +37,7 @@
 - [No.412 Fizz Buzz](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No412_fizz-buzz.md)
 - [No.448 找到所有数组中消失的数字](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No448_find-disappeared-numbers.md)
 - [No.492 构造矩形](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No492_construct-rectangle.md)
+- [No.581 最短无序连续子数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No581_find-unsorted-subarray.md)
 
 ## 分类
 
@@ -54,7 +56,8 @@
 - [No.189 旋转数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No189_rotate-arr.md)
 - [No.283 移动零](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No283_move-zeroes.md)
 - [No.350 两个数组的交集 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No350_intersect.md)
-
+- [No.448 找到所有数组中消失的数字](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No448_find-disappeared-numbers.md)
+- [No.581 最短无序连续子数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No581_find-unsorted-subarray.md)
 
 ### 字符串
 
@@ -86,3 +89,5 @@
 #### 数学初级
 
 - [No.326 3的幂](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No326_is-power-of-three.md)
+- [No.204 计数质数](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No204_count-primes.md)
+- [No.492 构造矩形](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No492_construct-rectangle.md)
