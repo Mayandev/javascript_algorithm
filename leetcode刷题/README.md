@@ -25,6 +25,7 @@
 - [No.160 相交链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No160_get-intersection-node.md)
 - [No.169 多数元素](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No169_majority-element.md)
 - [No.189 旋转数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No189_rotate-arr.md)
+- [No.198 打家劫舍](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No198_rob.md)
 - [No.204 计数质数](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No204_count-primes.md)
 - [No.206 反转链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No206_reverse-list.md)
 - [No.234 回文链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No234_is-palindrome.md)
@@ -91,3 +92,15 @@
 - [No.326 3的幂](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No326_is-power-of-three.md)
 - [No.204 计数质数](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No204_count-primes.md)
 - [No.492 构造矩形](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No492_construct-rectangle.md)
+
+
+### 动态规划
+
+- [No.70 爬楼梯](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No70_climb-stairs.md)
+- [No.121 买卖股票的最佳时机](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No121_max-profit.md)
+- [No.198 打家劫舍](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No198_rob.md)
+
+### 排序和搜索
+
+- [No.88 合并两个有序数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No88_merge.md)
+- [No.278 第一个错误的版本](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No278_is-bad-version.md)
