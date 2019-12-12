@@ -49,4 +49,29 @@ var maxSubArray = function(nums) {
 
 **思路二：**
 
-动态规划，一遍遍历，每次遍历计算出。类似寻找最大最小值的题目，初始值一定要定义成理论上的最小最大值
+动态规划，一遍遍历，每次遍历计算出。类似寻找最大最小值的题目，初始值一定要定义成理论上的最小最大值。
+
+遍历到当前数时，看是否有增益效果，并计算出当前到最大值。
+
+代码如下：
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var maxSubArray = function(nums) { 
+     let ans = nums[0];
+        let sum = 0;
+        for(let num of nums) {
+            if(sum > 0) {
+                sum += num;
+            } else {
+                sum = num;
+            }
+            ans = Math.max(ans, sum);
+        }
+        return ans;
+    
+};
+```

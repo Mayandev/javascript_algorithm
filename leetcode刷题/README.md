@@ -3,6 +3,7 @@
 - [No.1 两数之和](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No1_two-sum.md)
 - [No.7 整数反转](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No7_reverse.md)
 - [No.8 字符串转换整数 (atoi)](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No8_my-atoi.md)
+- [No.13 罗马数字转整数](note/No13_roman-to-int.md)
 - [No.14 最长公共前缀](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No14_longest-common-prefix.md)
 - [No.19 删除链表倒数第 n 个节点](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No19_remove-nth-from-end.md)
 - [No.20 有效的括号](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No20_is-valid.md)
@@ -11,6 +12,7 @@
 - [No.36 有效的数独](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No36_isvalid-sudoku.md)
 - [No.38 报数](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No38_count-and-say.md)
 - [No.48 旋转图像](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No48_rotate.md)
+- [No.53 最大子序和](note/No53_max-sub-array.md)
 - [No.66 加一](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No66_plus-one.md)
 - [No.70 爬楼梯](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No70_climb-stairs.md)
 - [No.88 合并两个有序数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No88_merge.md)
@@ -25,6 +27,7 @@
 - [No.160 相交链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No160_get-intersection-node.md)
 - [No.169 多数元素](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No169_majority-element.md)
 - [No.189 旋转数组](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No189_rotate-arr.md)
+- [No.191 位1的个数](note/No191_hamming-weight.md)
 - [No.198 打家劫舍](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No198_rob.md)
 - [No.204 计数质数](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No204_count-primes.md)
 - [No.206 反转链表](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No206_reverse-list.md)
@@ -34,6 +37,7 @@
 - [No.283 移动零](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No283_move-zeroes.md)
 - [No.326 3的幂](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No326_is-power-of-three.md)
 - [No.350 两个数组的交集 II](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No350_intersect.md)
+- [No.384 打乱数组](note/No384_shuffle.md)
 - [No.387 字符串中的第一个唯一字符](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No387_first-uniq-char.md)
 - [No.412 Fizz Buzz](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No412_fizz-buzz.md)
 - [No.448 找到所有数组中消失的数字](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No448_find-disappeared-numbers.md)
@@ -89,6 +93,7 @@
 
 #### 数学初级
 
+- [No.13 罗马数字转整数](note/No13_roman-to-int.md)
 - [No.326 3的幂](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No326_is-power-of-three.md)
 - [No.204 计数质数](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No204_count-primes.md)
 - [No.492 构造矩形](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No492_construct-rectangle.md)
@@ -96,9 +101,11 @@
 
 ### 动态规划
 
+- [No.53 最大子序和](note/No53_max-sub-array.md)
 - [No.70 爬楼梯](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No70_climb-stairs.md)
 - [No.121 买卖股票的最佳时机](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No121_max-profit.md)
 - [No.198 打家劫舍](https://github.com/Mayandev/javascript_algorithm/blob/master/leetcode%E5%88%B7%E9%A2%98/note/No198_rob.md)
+
 
 ### 排序和搜索
 
