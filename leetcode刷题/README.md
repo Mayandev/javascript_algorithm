@@ -26,6 +26,7 @@
 - [No.155 最小栈](note/No155_min-stack.md)
 - [No.160 相交链表](note/No160_get-intersection-node.md)
 - [No.169 多数元素](note/No169_majority-element.md)
+- [No.188 杨辉三角](note/No188_generate.md)
 - [No.189 旋转数组](note/No189_rotate-arr.md)
 - [No.191 位1的个数](note/No191_hamming-weight.md)
 - [No.198 打家劫舍](note/No198_rob.md)
@@ -42,6 +43,7 @@
 - [No.387 字符串中的第一个唯一字符](note/No387_first-uniq-char.md)
 - [No.412 Fizz Buzz](note/No412_fizz-buzz.md)
 - [No.448 找到所有数组中消失的数字](note/No448_find-disappeared-numbers.md)
+- [No.461 汉明距离](note/No461_hamming-distance.md)
 - [No.492 构造矩形](note/No492_construct-rectangle.md)
 - [No.581 最短无序连续子数组](note/No581_find-unsorted-subarray.md)
 
