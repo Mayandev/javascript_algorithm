@@ -15,6 +15,7 @@
 - [No.53 最大子序和](note/No53_max-sub-array.md)
 - [No.66 加一](note/No66_plus-one.md)
 - [No.70 爬楼梯](note/No70_climb-stairs.md)
+- [No.83 删除排序链表中的重复元素](note/No83.delete-duplicates.md)
 - [No.88 合并两个有序数组](note/No88_merge.md)
 - [No.98 验证二叉搜索树](note/No98_is-valid-BST.md)
 - [No.101 对称二叉树](note/No101_is-symmetric.md)
