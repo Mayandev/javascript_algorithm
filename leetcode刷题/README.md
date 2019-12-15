@@ -17,6 +17,8 @@
 - [No.70 爬楼梯](note/No70_climb-stairs.md)
 - [No.88 合并两个有序数组](note/No88_merge.md)
 - [No.98 验证二叉搜索树](note/No98_is-valid-BST.md)
+- [No.101 对称二叉树](note/No101_is-symmetric.md)
+- [No.102 二叉树的层次遍历](note/No102_level-order.md)
 - [No.104 二叉树的最大深度](note/No104_max-depth.md)
 - [No.121 买卖股票的最佳时机](note/No121_max-profit.md)
 - [No.122 买卖股票的最佳时机 II](note/No122_max-profit.md)
