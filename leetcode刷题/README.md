@@ -1,6 +1,7 @@
 # LootCode 刷题
 
 - [No.1 两数之和](note/No1_two-sum.md)
+- [No.3 无重复字符的最长子串](note/No3_length-of-longest-substring.md)
 - [No.7 整数反转](note/No7_reverse.md)
 - [No.8 字符串转换整数 (atoi)](note/No8_my-atoi.md)
 - [No.13 罗马数字转整数](note/No13_roman-to-int.md)
@@ -9,6 +10,8 @@
 - [No.20 有效的括号](note/No20_is-valid.md)
 - [No.21 合并两个有序链表](note/No21_merge-two-lists.md)
 - [No.26 从排序数组中删除重复项](note/No26_remove-duplicates.md)
+- [No.27 移除元素](note/No27-removeElement.md)
+- [No.35 搜索插入位置](note/No35_search-insert.md)
 - [No.36 有效的数独](note/No36_isvalid-sudoku.md)
 - [No.38 报数](note/No38_count-and-say.md)
 - [No.48 旋转图像](note/No48_rotate.md)
