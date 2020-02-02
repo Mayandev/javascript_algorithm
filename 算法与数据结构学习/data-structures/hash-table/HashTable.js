@@ -26,6 +26,9 @@ export default class HashTable {
       0,
     );
 
+    console.log(hash);
+    
+
     
     // 减少哈希数，使其适合哈希表的大小。
     return hash % this.buckets.length;
@@ -34,7 +37,6 @@ export default class HashTable {
   // 插入函数
   set(key, value) {
     const keyHash = this.hash(key);
-    console.log(key, value);
     this.keys[key] = keyHash;
     const bucketLinkedList = this.buckets[keyHash];
     const node = bucketLinkedList.find({callback: nodeValue => nodeValue.key === key})

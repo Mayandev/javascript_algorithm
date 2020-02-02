@@ -2,12 +2,13 @@ import HashTable from './HashTable';
 
 let hashTable = new HashTable();
 
-hashTable.set('a', 'aaaaaa')
-hashTable.set('b', 'bbbbbb')
-hashTable.set('c', 'cccccc')
-hashTable.set('d', 'dddddd')
+hashTable.set('a', 'sky-old');
+hashTable.set('a', 'sky');
+hashTable.set('b', 'sea');
+hashTable.set('c', 'earth');
+hashTable.set('d', 'ocean');
 
-hashTable.get('c')
+hashTable.buckets[1].toString();
 console.log(hashTable.getKeys())
 console.log(hashTable.has);
 
