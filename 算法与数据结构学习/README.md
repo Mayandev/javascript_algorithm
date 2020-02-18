@@ -8,7 +8,8 @@
 - [堆栈](data-structures/stack)
 - [哈希表](data-structures/hash-table)
 - [堆](data-structures/heap)
-- [有限队列](data-structures/priority-queue)
+- [优先队列](data-structures/priority-queue)
+- [字典树](data-structures/trie)
 
 ## 算法
 

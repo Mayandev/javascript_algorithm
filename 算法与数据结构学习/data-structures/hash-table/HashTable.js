@@ -26,7 +26,6 @@ export default class HashTable {
       0,
     );
 
-    console.log(hash);
     
 
     
