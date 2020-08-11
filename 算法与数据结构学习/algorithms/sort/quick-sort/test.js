@@ -1,29 +1,13 @@
-function quickSort(arr, low, high) {
-  if (low < high) {
-    // 调整数组
-    let i = adjustArr(arr, low, high);
-    // 分治
-    quickSort(arr, low, i-1);
-    quickSort(arr, i+1, high);
-  } 
-}
+var myPow = function(x, n) {
+  return n > 0 ? quickMul(x, n) : 1.0 / quickMul(x, -n);
+};
 
-function adjustArr(arr, low, high) {
-  let pivot = arr[low];
-
-  while (low < high) {
-    while (low < high && arr[high] > pivot)
-      high--;
-      arr[low] = arr[high];
-    while (low < high && arr[low] < pivot)
-      low++;
-      arr[high] = arr[low];
+var quickMul = function(x, N) {
+  if (N == 0) {
+    return 1.0
   }
-
-  arr[low] = pivot;
-  return low;
+  let y = quickMul(x, Math.floor());
+  return N % 2 == 0 ? y * y : y * y * x;
 }
 
-let arr = [72,6,57,88,60,42,83,73,48,85];
-quickSort(arr, 0, arr.length-1);
-console.log(arr);
+console.log(myPow(2, 10));

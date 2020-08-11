@@ -1,14 +1,18 @@
-import HashTable from './HashTable';
+// let k1 = [1,2,3];
+// let k2 = [3,4,5];
+// let k3 = [3,4,5];
+// let arr = [[k1, 'foo'], [k2, 'bar']];
 
-let hashTable = new HashTable();
+// let keys = arr.map(item => item[0]);
 
-hashTable.set('a', 'sky-old');
-hashTable.set('a', 'sky');
-hashTable.set('b', 'sea');
-hashTable.set('c', 'earth');
-hashTable.set('d', 'ocean');
+// console.log();
 
-hashTable.buckets[1].toString();
-console.log(hashTable.getKeys())
-console.log(hashTable.has);
 
+// console.log(keys.indexOf(k3));
+
+let arr = [1,2,3];
+let obj = {
+  arr: arr
+}
+
+console.log(obj.arr);

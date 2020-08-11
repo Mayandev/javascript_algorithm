@@ -8,7 +8,6 @@ function quickSort(arr, low, high) {
 
 function adjustArr(arr, low, high) {
   let pivot = arr[low];
-
   while (low < high) {
     while (arr[high] > pivot)
       high--;
@@ -25,3 +24,17 @@ function adjustArr(arr, low, high) {
 let arr = [72,6,57,88,60,42,83,73,48,85];
 quickSort(arr, 0, arr.length-1);
 console.log(arr);
+
+function quickSort(arr) {
+  const pivot = arr[0];
+  const left = [];
+  const right = [];
+  
+  if (arr.length < 2) { return arr; }
+
+  for (let i = 1, len = arr.length; i < len; i++) {
+    arr[i] < pivot ? left.push(arr[i]) : right.push(arr[i]);
+  }
+
+  return quickSort(left).concat([pivot], quickSort(right));
+}

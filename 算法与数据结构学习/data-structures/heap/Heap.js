@@ -1,15 +1,11 @@
 export default class Heap {
   constructor(params) {
-
     // 不能直接通过 new 来创建堆
     if (new.target === Heap) {
       throw new TypeError('Cannot construct Heap instance directly');
     }
-
     this.heapContainer = [];
-
   }
-
 
   /**
    * 获取左孩子的下标
